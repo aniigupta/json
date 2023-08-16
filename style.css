@@ -1,0 +1,19 @@
+*{
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+#contentContainer{
+        width: 50%;
+        height: 60vh;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        align-items:first baseline ;
+        justify-content: baseline;
+}
+.name,.year,.roll,.pass{
+       
+}
