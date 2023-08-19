@@ -1,6 +1,7 @@
-{
-  "Name": "Aniket",
-  "Roll No": 48,
-  "Pass": true,
-  "year": 3
-}
+export jsonData from './data.js';
+var obj =[
+  Name: Aniket;
+  Roll No: 48;
+  Pass: true;
+  year: 3;
+]
