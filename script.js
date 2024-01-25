@@ -1,26 +1,16 @@
-import jsonData from './data.json';  // Make sure to provide the correct path to your data.js file
-
+import jsonData from './data';
+export default jsonData;
+console.log("aniket")
 // Access the properties from the JSON data
-const name = jsonData.Name;
-const rollNo = jsonData['Roll No'];
-const pass = jsonData.Pass;
-const year = jsonData.year;
+for (let i = 0; i < person.length; i++) {
+    const name = jsonData[i].Name;
+    const rollNo = jsonData[i].rollNo;
+    const pass = jsonData[i].Pass;
+    const year = jsonData[i].year;
+}
+let row = document.createElement(tr);
+row.innerhtml(
+    <th>name</th>
 
-// // Display the data
-// const container = document.getElementById('contentContainer');
+)
 
-// const nameElement = document.createElement('div');
-// nameElement.textContent = `Name: ${name}`;
-// container.appendChild(nameElement);
-
-// const rollNoElement = document.createElement('div');
-// rollNoElement.textContent = `Roll No: ${rollNo}`;
-// container.appendChild(rollNoElement);
-
-// const passElement = document.createElement('div');
-// passElement.textContent = `Pass: ${pass}`;
-// container.appendChild(passElement);
-
-// const yearElement = document.createElement('div');
-// yearElement.textContent = `Year: ${year}`;
-// container.appendChild(yearElement);
